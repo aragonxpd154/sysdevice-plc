@@ -62,6 +62,12 @@ Analog values are read from the PLC as 'word' format information. Access to thes
 
 Each analog value ("channel") occupies an input or output word. The format is 'Int' an integral integer. The addressing of the input or output words is oriented according to the addressing in the device view. When an analog input value is available with the digitized value, it usually still needs to be normalized so that the numerical values match the physical variables of the process. Likewise, the analog output takes place in the peripheral output word only after normalization of the output value. 
 
+Electronic Scheme
+---
+
+![image](https://raw.githubusercontent.com/aragonxpd154/Sysdevice-PLC/main/Schematic_sysdevices_2021-10-04.png)
+
+
 Programming Device
 ---
 
@@ -72,3 +78,10 @@ To burn the bootloader, you will need to buy an AVR-ISP (system programmer), USB
 Make sure you have the correct item selected in Tools | Board menu. Then just launch the appropriate command from the Tools > Burn Bootloader menu from the Arduino environment. Burning the bootloader can take 15 seconds or more, so be patient.
 
 You can find the respective bootloaders at https://github.com/arduino/ArduinoCore-avr/tree/master/bootloaders
+
+Viewer PCB
+---
+
+![image](https://raw.githubusercontent.com/aragonxpd154/Sysdevice-PLC/main/VIEWER/PCB%202D.png)
+
+
