@@ -1,87 +1,76 @@
-# Sysdevice-PLC 
+<img src="https://github.com/aragonxpd154/aragonxpd154/blob/main/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
-General description 
----
+<p align="justify">
+<strong>Em Português</strong><br> 
+  Eu sou Marcos "Obel" e moro no Brasil. Me interesso por engenharia eletrônica aplicada a programação de microcontroladores, microprocessadores, linguagem de descrição de hardware, circuito eletrônico, arquitetura de hardware em nível de abstração.
+  Atualmente trabalho em uma emissora de televisão como Técnico de Sistemas Audiovisuais e estudo Análise e Desenvolvimento de Sistemas.
+  <br>
+  <p></p>
+  <p align="justify">
+  <strong>In English</strong> <br>
+  I'm Marcos "Obel" and I live in Brazil. I'm interested in electronic engineering applied to programming microcontrollers, microprocessors, hardware description language, electronic circuit, hardware architecture at abstraction level.
+   I currently work at a television station as an Audiovisual Systems Technician and study Systems Analysis and Development.
+  <br>
+  <p></p>
 
-During its operation, the PLC carries out a sequence of operations called a scan cycle. The time the PLC takes to complete a cycle is called the Scan Time or Scan Time, providing a scan time of approximately 1024 (1K) Boolean logic instructions[1]. All tasks performed by the processor are performed sequentially and cyclically while being powered.
+</p>
 
-Sweep cycle 
----
+<div align="center">
+<p align="center"><strong>
+  👀 Linguagens que estou aprendendo | Languages I'm learning: ⤵️ <br></strong>
+  <a>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+  
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
+  
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"/>
+  
+  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"/>
 
-When it is turned on, the PLC performs a series of pre-programmed operations: it checks the electronic functioning of the CPU, memories and auxiliary circuits; Check the status of the main input and output switches and check the existence of a pre-programmed user program in the ATMEGA328P microcontroller 
+  <img src="https://raw.githubusercontent.com/aragonxpd154/aragonxpd154/605244c52628f0e28a0ad00909071483889de43b/SystemVerilog_logo.svg"/>
+  </a>
+</p>
+</div>
 
-Checking the Status of Entries 
----
+<div align="center">
+<p align="center"><strong>
+  💼 Ferramentas | Tools: ⤵️ </strong><br>
+  <a>
+  <img src="https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black"/>
+  </a>
 
-The PLC reads the states of each one of the inputs, checks their respective triggers and updates their states in the outputs if the stored user program was created with deterministic conditions 
+  <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white"/>
+  </a>
+  <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white"/>
+  </a>
+</p>
+</div>
 
-Program
----
+<div align="center">
+<p align="center"><strong>
+  📫 Aqui você consegue entrar em contato comigo | Here you can contact me: ⤵️ </strong><br>
+</p>
 
-The PLC stores the results obtained during processing and compares them with the instructions defined in the user program. 
+<p align="center">
 
-Update Output Status
----
+  <a href="https://www.linkedin.com/in/marcosobel" alt="Linkedin">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 
-The PLC writes the value contained in memory to the outputs, updating the interfaces or output modules, that is, it turns the outputs on or off according to its program. Then a new sweep cycle starts. 
+  <a href="https://www.youtube.com/@voraz3d" alt="Instagram">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+  
+  
+</p>
+</div>
 
-Reading/writing analog values
----
+<div align="center">
 
-Analog signals are level variations from a minimum value to a maximum value.
-
-Example:
-
-0 to 10V (Volts)
-
--10 to +10V
-
-In registers we can store values of up to 16 bits of resolution, thus occupying the 4 digits.
-
-If the resolution is 1bit – It means that we can split the analog signal into two (2) states “0” and “1”.
-
-Example:
-
-0V = 0 10V = 1 (but in this case the signal is still considered digital).
-
-If 2bit resolution – Means that we can divide the analog signal into four (4) states “00”, “01”, “10” and “11”.
-
-Example:
-
-0V = 00; 3.3V = 01; 6.6V = 10; 10V = 11.
-
-So the more bits of resolution, the more parts we can divide the analog range.
-
-For each PLC there are registers associated with the analog inputs and outputs and the contents of these registers change instantly as the analog signal changes.
-
-Analog values are read from the PLC as 'word' format information. Access to these words is carried out, for example, with the operands:
-
-%IW 64 = Analog Input Word 64
-
-%QW 80 = Analog output word 80
-
-Each analog value ("channel") occupies an input or output word. The format is 'Int' an integral integer. The addressing of the input or output words is oriented according to the addressing in the device view. When an analog input value is available with the digitized value, it usually still needs to be normalized so that the numerical values match the physical variables of the process. Likewise, the analog output takes place in the peripheral output word only after normalization of the output value. 
-
-Electronic Scheme
----
-
-![image](https://raw.githubusercontent.com/aragonxpd154/Sysdevice-PLC/main/Schematic_sysdevices_2021-10-04.png)
-
-
-Programming Device
----
-
-You can use the Arduino Uno bootloader, if you need to work in an internal Arduino compatibility environment for those who do not have a mastery of microcontroller programming 
-
-To burn the bootloader, you will need to buy an AVR-ISP (system programmer), USBtinyISP or build a ParallelProgrammer. The programmer must be connected to the ICSP pins (the 2 by 3 pin connector) - make sure you connect it correctly. The board must be powered by an external power supply or USB port.
-
-Make sure you have the correct item selected in Tools | Board menu. Then just launch the appropriate command from the Tools > Burn Bootloader menu from the Arduino environment. Burning the bootloader can take 15 seconds or more, so be patient.
-
-You can find the respective bootloaders at https://github.com/arduino/ArduinoCore-avr/tree/master/bootloaders
-
-Viewer PCB
----
-
-![image](https://raw.githubusercontent.com/aragonxpd154/Sysdevice-PLC/main/VIEWER/PCB%202D.png)
-
-
+<img aligh="center" src="https://github-readme-stats.vercel.app/api?username=aragonxpd154&show_icons=true"/> </a>
+  
+![Profile View Counter](https://komarev.com/ghpvc/?username=aragonxpd154)
+  
+</div>
