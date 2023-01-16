@@ -47,9 +47,12 @@ This project is still in the development stage and using the following technolog
 
 ## :information_source: How To Use
 
-During its operation, the PLC carries out a sequence of operations called a scan cycle. The time the PLC takes to complete a cycle is called the Scan Time or Scan Time, providing a scan time of approximately 1024 (1K) Boolean logic instructions[1]. All tasks performed by the processor are performed sequentially and cyclically while being powered. When it is turned on, the PLC performs a series of pre-programmed operations: it checks the electronic functioning of the CPU, memories and auxiliary circuits; Check the status of the main input and output switches and check the existence of a pre-programmed user program in the ATMEGA328P microcontroller the PLC reads the states of each one of the inputs, checks their respective triggers and updates their states in the outputs if the stored user program was created with deterministic conditions. The PLC stores the results obtained during processing and compares them with the instructions defined in the user program. 
+<h4 align="justify">
 
-The PLC writes the value contained in memory to the outputs, updating the interfaces or output modules, that is, it turns the outputs on or off according to its program. Then a new sweep cycle starts. Analog signals are level variations from a minimum value to a maximum value.
+During its operation, the PLC carries out a sequence of operations called a scan cycle. The time the PLC takes to complete a cycle is called the Scan Time or Scan Time, providing a scan time of approximately 1024 (1K) Boolean logic instructions[1]. All tasks performed by the processor are performed sequentially and cyclically while being powered. When it is turned on, the PLC performs a series of pre-programmed operations: it checks the electronic functioning of the CPU, memories and auxiliary circuits; Check the status of the main input and output switches and check the existence of a pre-programmed user program in the ATMEGA328P microcontroller the PLC reads the states of each one of the inputs, checks their respective triggers and updates their states in the outputs if the stored user program was created with deterministic conditions. The PLC stores the results obtained during processing and compares them with the instructions defined in the user program. The PLC writes the value contained in memory to the outputs, updating the interfaces or output modules, that is, it turns the outputs on or off according to its program. Then a new sweep cycle starts. Analog signals are level variations from a minimum value to a maximum value.
+
+</h4>
+
 
 Example:
 
