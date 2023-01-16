@@ -30,7 +30,7 @@ This is an inexpensive programmable logic controller project that performs contr
 </p>
 
 ## :rocket: Technologies
-
+<h4 align="center">
 This project is still in the development stage and using the following technologies
 
 -  [Hexplorer](https://sourceforge.net/projects/hexplorer/files/)
@@ -40,7 +40,7 @@ This project is still in the development stage and using the following technolog
 -  [KiCad](https://www.kicad.org/)
 -  [MultisimLive](https://www.multisim.com/)
 -  [CodeBlocks](https://www.codeblocks.org/)
-
+</h4>
 ## :information_source: How To Use
 
 <h4 align="justify">
@@ -93,6 +93,7 @@ To clone and download all project directories you can use [Git](https://git-scm.
 # Clone this repository
 $ git clone https://github.com/aragonxpd154/sysdevice-plc
 ````
+</h4>
 
 ## ☕ Do It Yourself
 
@@ -112,7 +113,7 @@ This project is under the MIT license. See the [LICENSE](https://github.com/arag
 
 Made with ♥ by Marcos (Obel) :wave: [Get in touch!](https://www.linkedin.com/in/marcosobel)
 
-</h4>
+
 
 
 
