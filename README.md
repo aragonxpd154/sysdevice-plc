@@ -44,7 +44,9 @@ This project is still in the development stage and using the following technolog
 ## :information_source: How To Use
 
 During its operation, the PLC carries out a sequence of operations called a scan cycle. The time the PLC takes to complete a cycle is called the Scan Time or Scan Time, providing a scan time of approximately 1024 (1K) Boolean logic instructions[1]. All tasks performed by the processor are performed sequentially and cyclically while being powered.
+
 When it is turned on, the PLC performs a series of pre-programmed operations: it checks the electronic functioning of the CPU, memories and auxiliary circuits; Check the status of the main input and output switches and check the existence of a pre-programmed user program in the ATMEGA328P microcontroller 
+
 The PLC reads the states of each one of the inputs, checks their respective triggers and updates their states in the outputs if the stored user program was created with deterministic conditions 
 
 The PLC stores the results obtained during processing and compares them with the instructions defined in the user program. 
@@ -90,6 +92,7 @@ So the more bits of resolution, the more parts we can divide the analog range. F
 ````
 
 Each analog value ("channel") occupies an input or output word. The format is 'Int' an integral integer. The addressing of the input or output words is oriented according to the addressing in the device view. When an analog input value is available with the digitized value, it usually still needs to be normalized so that the numerical values match the physical variables of the process. Likewise, the analog output takes place in the peripheral output word only after normalization of the output value. This project directory contains a folder with its respective version (in a subfolder), the electronic schematic and the layout of the printed circuit board (PCB) and compiled code, which is specific to each function of the 8bit computer.
+
 Always check and/or use the highest numbered version or most recent modification described in the commit for example:
 
 To clone and download all project directories you can use [Git](https://git-scm.com), or any other specific program. To clone the current directory use the command:
