@@ -1,76 +1,120 @@
-<img src="https://github.com/aragonxpd154/aragonxpd154/blob/main/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+<h1 align="center">
+<img alt="systdevice-plc" src="https://github.com/aragonxpd154/sysdevice-PLC/blob/main/logo/SYSDEVICE-PLC_free-file.png"/>
+<br>
+</h1>
 
-<p align="justify">
-<strong>Em Português</strong><br> 
-  Eu sou Marcos "Obel" e moro no Brasil. Me interesso por engenharia eletrônica aplicada a programação de microcontroladores, microprocessadores, linguagem de descrição de hardware, circuito eletrônico, arquitetura de hardware em nível de abstração.
-  Atualmente trabalho em uma emissora de televisão como Técnico de Sistemas Audiovisuais e estudo Análise e Desenvolvimento de Sistemas.
-  <br>
-  <p></p>
-  <p align="justify">
-  <strong>In English</strong> <br>
-  I'm Marcos "Obel" and I live in Brazil. I'm interested in electronic engineering applied to programming microcontrollers, microprocessors, hardware description language, electronic circuit, hardware architecture at abstraction level.
-   I currently work at a television station as an Audiovisual Systems Technician and study Systems Analysis and Development.
-  <br>
-  <p></p>
+<h4 align="center">
 
-</p>
+This is an inexpensive programmable logic controller project that performs control and monitoring functions for industrial processes of various types and levels of complexity, through specific programs developed by the user
 
-<div align="center">
-<p align="center"><strong>
-  👀 Linguagens que estou aprendendo | Languages I'm learning: ⤵️ <br></strong>
-  <a>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"/>
+</h4>
 
-  <img src="https://raw.githubusercontent.com/aragonxpd154/aragonxpd154/605244c52628f0e28a0ad00909071483889de43b/SystemVerilog_logo.svg"/>
-  </a>
-</p>
-</div>
-
-<div align="center">
-<p align="center"><strong>
-  💼 Ferramentas | Tools: ⤵️ </strong><br>
-  <a>
-  <img src="https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black"/>
-  </a>
-
-  <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white"/>
-  </a>
-  <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white"/>
-  </a>
-</p>
-</div>
-
-<div align="center">
-<p align="center"><strong>
-  📫 Aqui você consegue entrar em contato comigo | Here you can contact me: ⤵️ </strong><br>
+<p align="center">
+<img alt="Github top language" src="https://img.shields.io/github/languages/top/aragonxpd154/8-bits-computer">
+<img alt="Github laguage count" src="https://img.shields.io/github/languages/count/aragonxpd154/8-bits-computer">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/aragonxpd154/8-bits-computer">
+<img alt="Github last commit" src="https://img.shields.io/github/last-commit/aragonxpd154/8-bits-computer">
+<a href="https://github.com/aragonxpd154/8-bits-computer/issues">
+<img alt="Repository issues" src="https://img.shields.io/github/issues/aragonxpd154/8-bits-computer"> 
+</a>
+<img alt="Github license" src="https://img.shields.io/github/license/aragonxpd154/8-bits-computer">
+</a>
 </p>
 
 <p align="center">
-
-  <a href="https://www.linkedin.com/in/marcosobel" alt="Linkedin">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-
-  <a href="https://www.youtube.com/@voraz3d" alt="Instagram">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-  
-  
+<a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#information_source">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#do-it-yourself">Do It Yourself</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#status">Development Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#memo-license">License</a>
 </p>
-</div>
 
-<div align="center">
+<p align="center">
+<img alt="Demo on Photo" src="https://i.imgur.com/ElBRN8j.png">
+</p>
 
-<img aligh="center" src="https://github-readme-stats.vercel.app/api?username=aragonxpd154&show_icons=true"/> </a>
-  
-![Profile View Counter](https://komarev.com/ghpvc/?username=aragonxpd154)
-  
-</div>
+## :rocket: Technologies
+
+This project is still in the development stage and using the following technologies
+
+-  [Hexplorer](https://sourceforge.net/projects/hexplorer/files/)
+-  [Visual Studio Code](https://code.visualstudio.com/)
+-  [EasyEDA](https://easyeda.com/)
+-  [LTspice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+-  [KiCad](https://www.kicad.org/)
+-  [MultisimLive](https://www.multisim.com/)
+-  [CodeBlocks](https://www.codeblocks.org/)
+
+## :information_source: How To Use
+
+This project directory contains a folder with its respective version (in a subfolder), the electronic schematic and the layout of the printed circuit board (PCB) and compiled code, which is specific to each function of the 8bit computer.
+
+Always check and/or use the highest numbered version or most recent modification described in the commit for example:
+
+Old version: 
+```bash
+...directory...\1.0V
+````
+
+latest version: 
+```bash
+...directory...\2.1V 
+````
+
+To clone and download all project directories you can use [Git](https://git-scm.com), or any other specific program.
+
+To clone the current directory use the command:
+```bash
+# Clone this repository
+$ git clone https://github.com/aragonxpd154/8-bits-computer
+````
+
+## ☕ Do It Yourself
+
+As soon as I finish all the branches of this project I will make available a final version of the package with a detailed description for you to be able to assemble your own 8bit computer. Only a pre-release version was available, with the passing of these months I should provide a more complete version.
+
+## 💻 Development Status
+
+The revision of all the directories of this project has already started, with each commit I will be providing a description of what was changed in each revision. The review process is below:
+
+- [ ] Reviewer ACC REGISTER 
+- [ ] Reviewer ARITHMETIC LOGIC UNIT
+- [ ] Reviewer ASSEMBLY LAYOUT
+- [ ] Reviewer ASTABLE AND MONOSTABLE CLOCK CIRCUIT
+- [ ] Reviewer B REGISTER
+- [ ] Reviewer CONTROL DECODER
+- [ ] Reviewer DECIMAL DISPLAY
+- [ ] Reviewer FETCH EXECUTION COUNTER
+- [ ] Reviewer INSTRUCTION REGISTER
+- [ ] Reviewer OUTPUT REGISTER
+- [ ] Reviewer PROGRAM COUNTER
+- [ ] Reviewer RAM & MAR
+- [ ] Reviewer RESERT CIRCUIT
+
+Below are the tests of each board (PCB) after production. The review directory is [REHEARSAL](https://github.com/aragonxpd154/8-bits-computer/tree/main/~REHEARSAL~)
+
+- [ ] Reviewer ACC REGISTER 
+- [ ] Reviewer ARITHMETIC LOGIC UNIT
+- [ ] Reviewer ASSEMBLY LAYOUT
+- [x] Reviewer ASTABLE AND MONOSTABLE CLOCK CIRCUIT
+- [ ] Reviewer B REGISTER
+- [ ] Reviewer CONTROL DECODER
+- [ ] Reviewer DECIMAL DISPLAY
+- [ ] Reviewer FETCH EXECUTION COUNTER
+- [ ] Reviewer INSTRUCTION REGISTER
+- [ ] Reviewer OUTPUT REGISTER
+- [ ] Reviewer PROGRAM COUNTER
+- [ ] Reviewer RAM & MAR
+- [ ] Reviewer RESERT CIRCUIT
+
+## :memo: License
+This project is under the GPL v3.0 license. See the [LICENSE](https://github.com/aragonxpd154/8-bits-computer/blob/main/LICENSE) for more information.
+
+---
+
+Made with ♥ by Marcos (Obel) :wave: [Get in touch!](https://www.linkedin.com/in/marcosobel)
+
+
+
+
+
