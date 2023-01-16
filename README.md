@@ -43,6 +43,8 @@ This project is still in the development stage and using the following technolog
 
 ## :information_source: How To Use
 
+![image](https://raw.githubusercontent.com/aragonxpd154/Sysdevice-PLC/main/Schematic_sysdevices_2021-10-04.png)
+
 During its operation, the PLC carries out a sequence of operations called a scan cycle. The time the PLC takes to complete a cycle is called the Scan Time or Scan Time, providing a scan time of approximately 1024 (1K) Boolean logic instructions[1]. All tasks performed by the processor are performed sequentially and cyclically while being powered.
 
 When it is turned on, the PLC performs a series of pre-programmed operations: it checks the electronic functioning of the CPU, memories and auxiliary circuits; Check the status of the main input and output switches and check the existence of a pre-programmed user program in the ATMEGA328P microcontroller 
