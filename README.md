@@ -1,5 +1,5 @@
 <h1 align="center">
-<img alt="systdevice-plc" src="https://github.com/aragonxpd154/sysdevice-PLC/blob/main/logo/SYSDEVICE-PLC_free-file.png"/>
+<img alt="sysdevice-plc" src="https://github.com/aragonxpd154/sysdevice-PLC/blob/main/logo/SYSDEVICE-PLC_free-file.png"/>
 <br>
 </h1>
 
@@ -10,14 +10,14 @@ This is an inexpensive programmable logic controller project that performs contr
 </h4>
 
 <p align="center">
-<img alt="Github top language" src="https://img.shields.io/github/languages/top/aragonxpd154/8-bits-computer">
-<img alt="Github laguage count" src="https://img.shields.io/github/languages/count/aragonxpd154/8-bits-computer">
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/aragonxpd154/8-bits-computer">
-<img alt="Github last commit" src="https://img.shields.io/github/last-commit/aragonxpd154/8-bits-computer">
-<a href="https://github.com/aragonxpd154/8-bits-computer/issues">
-<img alt="Repository issues" src="https://img.shields.io/github/issues/aragonxpd154/8-bits-computer"> 
+<img alt="Github top language" src="https://img.shields.io/github/languages/top/aragonxpd154/sysdevice-plc">
+<img alt="Github laguage count" src="https://img.shields.io/github/languages/count/aragonxpd154/sysdevice-plc">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/aragonxpd154/sysdevice-plc">
+<img alt="Github last commit" src="https://img.shields.io/github/last-commit/aragonxpd154/sysdevice-plc">
+<a href="https://github.com/aragonxpd154/sysdevice-plc/issues">
+<img alt="Repository issues" src="https://img.shields.io/github/issues/aragonxpd154/sysdevice-plc"> 
 </a>
-<img alt="Github license" src="https://img.shields.io/github/license/aragonxpd154/8-bits-computer">
+<img alt="Github license" src="https://img.shields.io/github/license/aragonxpd154/sysdevice-plc">
 </a>
 </p>
 
